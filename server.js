@@ -3,7 +3,7 @@ const app = express();
 const port =  8080;
 const router = require("./routes/routes");
 
-//menggunakan router
+//menggunakan router pada port 8080
 app.use(router);
 
 
