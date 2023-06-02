@@ -8,7 +8,7 @@ messageAPI = Blueprint('messageAPI', __name__)
 
 message_ref = db.collection('message')
 chat_ref = db.collection('chat')
-sales_ref = db.collection('Sales')
+sales_ref = db.collection('sales')
 
 #Tambah Data dengan tambahan field
 @messageAPI.route('/add', methods=['POST'])
