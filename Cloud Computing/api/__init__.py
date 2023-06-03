@@ -11,9 +11,11 @@ def create_app():
     
     from .messageAPI import messageAPI
     from .sentimentResultAPI import sentimentResultAPI
+    from .DashboardAPI import DashboardAPI
     from .authAPI import authAPI
 
     app.register_blueprint(authAPI, url_prefix='/auth')
+    app.register_blueprint(DashboardAPI, url_prefix='/dashboard')
     app.register_blueprint(messageAPI, url_prefix='/message')
     app.register_blueprint(sentimentResultAPI, url_prefix='/sentiment-result')
     return app
