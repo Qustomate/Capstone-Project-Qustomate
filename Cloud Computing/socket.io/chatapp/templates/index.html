@@ -33,6 +33,14 @@
             list-style: none;
         }
 
+        li.self {
+            text-align: right;
+        }
+
+        li.other {
+            text-align: left;
+        }
+
         #landing {
             display: flex;
             align-items: center;
@@ -78,9 +86,25 @@
             }
         })
 
+        // Mengambil data pesan dari endpoint /messages
+        fetch("/getmessages/" + encodeURIComponent(username))
+            .then(response => response.json())
+            .then(data => {
+                // Menampilkan pesan-pesan yang diterima
+                let ul = document.getElementById("chat-messages");
+                data.forEach(message => {
+                    let li = document.createElement("li");
+                    li.classList.add(message["username"] === username ? "self" : "other");
+                    li.appendChild(document.createTextNode(message["username"] + ": " + message["message"]));
+                    ul.appendChild(li);
+                });
+                ul.scrolltop = ul.scrollHeight;
+            });
+
         socket.on("chat", function(data) {
             let ul = document.getElementById("chat-messages");
             let li = document.createElement("li");
+            li.classList.add(data["username"] === username ? "self" : "other"); // Tambahkan class CSS sesuai kondisi
             li.appendChild(document.createTextNode(data["username"] + ": " + data["message"]));
             ul.appendChild(li);
             ul.scrolltop = ul.scrollHeight;
