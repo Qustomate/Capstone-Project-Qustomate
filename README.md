@@ -21,3 +21,14 @@
 ## Team ID : C23-PR507
                    
 <p align="center"><img src="Logo-Images/Team_Member.PNG"></p>
+
+<br>
+
+| Name                   | Student ID  | Path                | Contact |
+| ---------------------- | ----------  | ------------------- | ------- |
+| Muhammad David         | M313DKX4618 | Machine Learning    | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
+| Muhammad Rey Renoult   | M312DKX4688 | Machine Learning    | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
+| Moh. Bayu Aji Prasetyo | M038DSX1879 | Machine Learning    | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
+| Ananda Satria Ariyanto | C172DSX1973 | Cloud Computing     | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
+| Isa Tarmana Mustopa    | C172DSX2370 | Cloud Computing     | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
+| Muh. Dhiyaul Haq       | A172DSX2077 | Android Development | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
