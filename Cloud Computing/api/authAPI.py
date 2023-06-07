@@ -4,11 +4,8 @@ import requests
 import dotenv
 import os
 import uuid
-
+from .function import sales_ref,admin_ref, db
 authAPI = Blueprint('authAPI', __name__)
-db = firestore.client()
-sales_ref = db.collection('sales') 
-admin_ref = db.collection('admin') 
 
 @authAPI.route('/login', methods=['POST'])
 def login():
@@ -20,14 +17,19 @@ def login():
             dotenv.load_dotenv()
             api_key_token= os.getenv("API_KEY_TOKEN")
             firebase_url="https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={}".format(api_key_token)
+
+            query = sales_ref.where('email', '==', email).get()   
+            sales_ids=[]
+            for doc in query:
+                sales_data = doc.to_dict()
+                sales_ids.append(sales_data['sales_id']) 
+            sales_id = ','.join(sales_ids)
             req = requests.post(firebase_url,json=
-                                 {
+                                 {  
                                   "email":email , 
-                                  "password":password
-                                  })
-            #get pencarian firstname atau id dari email diatas
-            #id_user
-            return jsonify({'message': 'Login Successfully', "data":req.json()})
+                                  "password":password                             
+                                  })            
+            return jsonify({'message': 'Login Successfully',"email":email,"sales_id":sales_id, "data":req.json()})
         else:
             return jsonify({'message': 'Login Failed', 'error': 'User not Found'}), 401
     except Exception as e:
@@ -36,18 +38,15 @@ def login():
 #register
 @authAPI.route('/register', methods=['POST'])
 def register():
-
-    #program random id
-    
     data = request.get_json()   
     email = data.get('email')
     password = data.get('password')
+
     first_name = data.get('first_name')
     last_name = data.get('last_name')
     company = data.get('company')
     role = data.get('role')         
     try:
-        # Membuat user baru dengan Firebase Authentication
         user = auth.create_user(
             email=email,
             password=password
@@ -66,8 +65,7 @@ def register():
                     'role':'sales',
                     'sales_id': sales_id,
                     'company':company,
-                    'created':firestore.SERVER_TIMESTAMP
-                    
+                    'created':firestore.SERVER_TIMESTAMP                   
                 }
                 sales_ref.document(sales_id).set(sales_data)
                 return jsonify({'message': 'Registrasi Sales berhasil', 'id_UID': user.uid})
