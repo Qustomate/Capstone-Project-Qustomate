@@ -38,7 +38,7 @@ def add_message():
 #----
 #MACHINE LEARNING SENTIMENT ANALYSIS
         sentiment_result = predict_sentiment(message_text)
-        if sentiment_result == 0:
+        if sentiment_result < 0.6:
             sentiment = 'negative'
         else :
             sentiment = 'positive'
