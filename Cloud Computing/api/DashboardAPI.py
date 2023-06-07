@@ -1,11 +1,8 @@
 from flask import Blueprint, jsonify, request
 from firebase_admin import firestore
+from .function import id_checker_sales, sales_ref, chat_ref, message_ref 
 
-db = firestore.client()
 DashboardAPI = Blueprint('DashboardAPI', __name__)
-sales_ref = db.collection('sales')
-chat_ref = db.collection('chat')
-message_ref = db.collection('message')
 
 
 
@@ -19,9 +16,8 @@ def done_status(sales_id):
     persentage_negatif=0
     
     try :             
+        id_checker_sales(sales_id)
         query = sales_ref.where('sales_id', '==', sales_id).get()
-        if not query:
-            raise ValueError(f'Sales account {sales_id} tidak ditemukan')
         sales_data = query[0].to_dict()
         client_handler = sales_data['client_handler']             
                 
@@ -49,8 +45,8 @@ def done_status(sales_id):
         negative_count = len(negative_query) 
         chat_selesai = chat_counts['selesai']
         if revenue_query:
-            persentage_positif= (positive_count/(len(positive_query)+len(negative_query)))*100
-            persentage_negatif= (negative_count/(len(positive_query)+len(negative_query)))*100
+            persentage_positif= int((positive_count/(len(positive_query)+len(negative_query)))*100)
+            persentage_negatif= int((negative_count/(len(positive_query)+len(negative_query)))*100)
         return jsonify({
             'firstname': first_name,
             'lastname': last_name,
@@ -72,6 +68,6 @@ def done_status(sales_id):
 
         }), 200
     except Exception as e:
-        return jsonify({'message': 'Login Failed', 'error': str(e)}), 401
+        return jsonify({'message': 'Access Denide', 'error': str(e)}), 401
         
 
