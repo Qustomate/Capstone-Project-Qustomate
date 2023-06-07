@@ -1,7 +1,7 @@
 from flask import Blueprint, jsonify, request
 from firebase_admin import firestore
 
-db = firestore.client()
+
 managementAPI = Blueprint('managementAPI', __name__)
 
 
