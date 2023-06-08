@@ -4,7 +4,7 @@ import requests
 from dotenv import load_dotenv
 import os
 
-cred = credentials.Certificate("api/serviceAccountKey.json")
+cred = credentials.Certificate("api/serviceAccountKey2.json")
 
 default_app= initialize_app(cred)
 
@@ -19,7 +19,9 @@ def create_app():
     from .authAPI import authAPI
     from .DashboardAPI import DashboardAPI
     from .managementAPI import managementAPI
-
+    @app.route('/',methods=['GET'])
+    def default():
+        return 'Response Success'
     app.register_blueprint(managementAPI, url_prefix='/management')
     app.register_blueprint(DashboardAPI, url_prefix='/dashboard')
     app.register_blueprint(authAPI, url_prefix='/auth')
