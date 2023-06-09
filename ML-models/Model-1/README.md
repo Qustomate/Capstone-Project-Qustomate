@@ -1,0 +1,7 @@
+## This is the first model that we developed to do sentiment analysis using the LSTM algorithm.
+As we revised the model sometimes, the dataset also changed quite a bit, so you can see in just this model that the dataset has several versions. The changes that we make to the model include:
+1. Change the preprocessing function that can delete blank data in the dataframe. Along with that, we change the ratio between negative and positive data from 1:5 in the first model to 1:1 (from ver. 1 to ver. 2).
+2. In version 3, we reversed the stemming and removed stopwords in the preprocessing function. Besides that, we add some layers to our model and set kernel regularization.
+3. In the last version (ver. 4), we only added some data, but the ratio between negative and positive remained the same at 1:1.
+
+In general, there is not much difference between the metrics we evaluate in the second and third versions, but there is some increase (or decrease) if we compare them with the first model (the training accuracy increases up to 95%, but the validation accuracy decreases by almost 2% from 90% to 88%). But the ability to read unseen data steadily increased in both models. Next, for the last model, we see some increasing metrics both for training and validation, so all of them increase up to 90%. But after doing some tests, the ability to read data showed an extremely high contrast in score for both polarities, but sometimes it made some mistakes when faced with a sentence in which both polarities came together.
