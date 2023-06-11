@@ -13,7 +13,7 @@
     <a href="https://www.canva.com/design/DAFiB0p2__8/K_kgk5_pW66aFW6LK3jIxg/edit?utm_content=DAFiB0p2__8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
     	<img src="https://img.shields.io/badge/%E2%9C%A8-Presentation%20Slide-1e56a4.svg?style=flat&colorA=0a0a0a" alt="Presentatation Slide" />
     </a>
-    <a href="">
+    <a href="mailto:qustomate.bangkit@gmail.com">
     	<img src="https://img.shields.io/badge/Qustomate-Gmail-red?logo=Gmail" alt="Gmail" />
     </a>
     <a href="https://www.linkedin.com/company/qustomate/?viewAsMember=true">
@@ -36,12 +36,12 @@
 
 | Name                   | Student ID  | Path                | Contact |
 | ---------------------- | ----------  | ------------------- | ------- |
-| Muhammad David         | M313DKX4618 | Machine Learning    | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
-| Muhammad Rey Renoult   | M312DKX4688 | Machine Learning    | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
-| Moh. Bayu Aji Prasetyo | M038DSX1879 | Machine Learning    | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
-| Ananda Satria Ariyanto | C172DSX1973 | Cloud Computing     | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
-| Isa Tarmana Mustopa    | C172DSX2370 | Cloud Computing     | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
-| Muh. Dhiyaul Haq       | A172DSX2077 | Android Development | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](https://masukkan-link-disini) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://masukkan-link-disini) |
+| Muhammad David         | M313DKX4618 | Machine Learning    | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](M313DKX4618@bangkit.academy) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://www.linkedin.com/in/muhdavid/) |
+| Muhammad Rey Renoult   | M312DKX4688 | Machine Learning    | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](M312DKX4688@bangkit.academy) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://www.linkedin.com/in/muhammad-rey-renoult-166479148/) |
+| Moh. Bayu Aji Prasetyo | M038DSX1879 | Machine Learning    | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](M038DSX1879@bangkit.academy) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://www.linkedin.com/in/mbayuprasetyo/) |
+| Ananda Satria Ariyanto | C172DSX1973 | Cloud Computing     | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](mailto:C172DSX1973@bangkit.academy) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://www.linkedin.com/in/ananda-satria-ariyanto-788114253/) |
+| Isa Tarmana Mustopa    | C172DSX2370 | Cloud Computing     | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](C172DSX2370@bangkit.academy) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://www.linkedin.com/in/isatarmanamustopa/) |
+| Muh. Dhiyaul Haq       | A172DSX2077 | Android Development | [![Gmail](https://img.shields.io/badge/contact%20me-Gmail-red?logo=Gmail)](A172DSX2077@bangkit.academy) [![LinkedIn](https://img.shields.io/badge/contact%20me-LinkedIn-3949AB?logo=linkedin)](https://www.linkedin.com/in/muh-dhiyaul-haq-b87960265/) |
 
 <br>
 
