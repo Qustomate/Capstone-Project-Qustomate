@@ -83,11 +83,9 @@
   </table>
 </p>
 
-### Mentor
+### Mentor & Advisor
 - <strong>Markus Andreas</strong> (Tech - Machine Learning/Data/AI, Tech - Android/Mobile Development, Project Management, Ideation/UI & UX Mentor)
 - <strong>Muhammad Raihan Nismara</strong> (Tech - Cloud and Back End, Project Management, Ideation/UI & UX Mentor)
+- <strong>Iqbal Ahmad Dahlan</strong> (Republic of Indonesia Defense University Advisor)
 - <strong>Faturrahman Irwansa</strong> (CC-33 Mentor)
 - <strong>blablabla</strong> (blablabla)
-
-### Advisor
-- <strong>Iqbal Ahmad Dahlan</strong> (Republic of Indonesia Defense University)
