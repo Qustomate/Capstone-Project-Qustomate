@@ -10,16 +10,16 @@
     <a href="">
     	<img src="https://img.shields.io/badge/%E2%9C%A8-Video%20Presentation-1e56a4.svg?style=flat&colorA=0a0a0a" alt="Video Presentation" />
     </a>
-    <a href="">
+    <a href="https://www.canva.com/design/DAFiB0p2__8/K_kgk5_pW66aFW6LK3jIxg/edit?utm_content=DAFiB0p2__8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
     	<img src="https://img.shields.io/badge/%E2%9C%A8-Presentation%20Slide-1e56a4.svg?style=flat&colorA=0a0a0a" alt="Presentatation Slide" />
     </a>
     <a href="">
     	<img src="https://img.shields.io/badge/Qustomate-Gmail-red?logo=Gmail" alt="Gmail" />
     </a>
-    <a href="">
+    <a href="https://www.linkedin.com/company/qustomate/?viewAsMember=true">
     	<img src="https://img.shields.io/badge/Qustomate-LinkedIn-3949AB?logo=linkedin" alt="LinkedIn" />
     </a>
-    <a href="">
+    <a href="http://instagram.com/qustomate.id">
     	<img src="https://img.shields.io/badge/Qustomate-Instagram-red?logo=instagram" alt="Instagram" />
     </a>
   </p>
@@ -88,4 +88,5 @@
 - <strong>Muhammad Raihan Nismara</strong> (Tech - Cloud and Back End, Project Management, Ideation/UI & UX Mentor)
 - <strong>Iqbal Ahmad Dahlan</strong> (Republic of Indonesia Defense University Advisor)
 - <strong>Faturrahman Irwansa</strong> (CC-33 Mentor)
-- <strong>blablabla</strong> (blablabla)
+- <strong>Steven Adi Santoso</strong> (ML-52 Mentor)
+- <strong>Mohammad Tauchid</strong> (CC-50 Mentor)
