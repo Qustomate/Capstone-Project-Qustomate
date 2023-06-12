@@ -17,4 +17,4 @@
 
 ##    Qustomate API
 
-<a href="api/README.md"><strong>Click here to see Qustomate API</strong></a>
+<a href="api/"><strong>Click here to see Qustomate API</strong></a>
