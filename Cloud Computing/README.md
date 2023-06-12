@@ -6,7 +6,7 @@
 ## 2. Setup Firebase / Cloud Firestore to get auth tokens like service account and env
 
 ## 3. Setup Google Cloud Platform
-      Setup and Enable App Engine
+- Setup and Enable App Engine
 
 ## 4. Run API in Cloud Shell Google Cloud Platform or Install SDK to run in VS Code
       gcloud app deploy
