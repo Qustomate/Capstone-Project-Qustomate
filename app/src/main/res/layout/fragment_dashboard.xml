@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#152238"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Dashboard"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Hai"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/usernameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Ananda_Satria"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Berikut_hasil_dari_kinerjamu"
+            android:textSize="16sp"
+            android:paddingTop="8dp" />
+
+        <!-- Fragment Container Views -->
+        <FrameLayout
+            android:id="@+id/handleClientContainer"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:layout_marginTop="16dp" />
+
+        <FrameLayout
+            android:id="@+id/totalPendapatanContainer"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_marginTop="16dp" />
+
+        <FrameLayout
+            android:id="@+id/sentimentAnalysisContainer"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
