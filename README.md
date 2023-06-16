@@ -57,7 +57,8 @@
 <p align="justify">We built this application because we saw the potential for MSMEs in the Indonesian economy to contribute 61.07% of GDP. However, in this case, MSMEs do not yet have access to broadly develop their business. Some MSMEs still use the old methods of manual recording, replying to communications via telephone, SMS. The business model is inefficient, causing business development to falter. Based on this, our team developed a platform called Qustomate to increase the potential of MSMEs in Indonesia.</p>
 
 ## App Overview
-<p align="center"><img src="Logo-Images/App_Overview.PNG"></p>
+<p align="center"><img src="Logo-Images/App_Overview.png"></p>
+<p align="center"><img src="Logo-Images/App_Overview2.png"></p>
 
 ## Documentation
 ### Machine Learning
@@ -69,7 +70,7 @@
   <p align="justify">Using Firebase services such as Firestore Auth to create Login & Register, also using Firestore Storage as our app database. We also create the required API endpoints using the Python/Flask language, APIs such as DashboardAPI, authAPI, managementAPI, and messageAPI, to be connected to Mobile Development later, while other APIs such as sentimentResultAPI we use to process models that have been made by Machine Learning. For the deployment of these APIs we use App Engine.</p>
 
 ### Mobile Development
-  <a href="">Mobile Development Documentation</a>
+  <a href="https://github.com/Qustomate/Capstone-Project-Qustomate/tree/main/Mobile%20Development">Mobile Development Documentation</a>
   <p align="justify">Create applications for MSME owners and their employees (sales). making applications is focused on employee use first. in the application there is a dashboard page to view sales performance (logged in users), incoming chat columns, client management, and also settings. in the dashboard there is a sentiment analysis chart to display positive or negative customer responses.</p>
 
 ## Thanks For Supported
