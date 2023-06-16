@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Qustomate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Dashboard -->
+    <string name="Dashboard">Dashboard</string>
+    <string name="Hai">Hai,</string>
+    <string name="Ananda_Satria">Ananda Satria</string>
+    <string name="Berikut_hasil_dari_kinerjamu">Berikut hasil dari kinerjamu</string>
+
+    <!-- Chat -->
+    <string name="Chat">Chat</string>
+
+    <!-- Management -->
+    <string name="Manajemen">Manajemen</string>
+
+    <!-- Setting -->
+    <string name="Pengaturan">Pengaturan</string>
+
+</resources>
