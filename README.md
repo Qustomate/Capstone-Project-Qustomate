@@ -62,6 +62,7 @@
 ## Documentation
 ### Machine Learning
   <a href="https://github.com/Qustomate/Capstone-Project-Qustomate/tree/main/ML-models/Model-1">Machine Learning Documentation</a>
+  <p>Build a machine learning model to determine the polarity of customer chat using sentiment analysis with the LSTM algorithm. We preprocess the dataset of customer using tokenizers and word embedding with tools like Tensorflow, NLTK, and Sastrawi as our base model will be in Indonesian.</p>
 
 ### Cloud Computing
   <a href="https://github.com/Qustomate/Capstone-Project-Qustomate/tree/main/Cloud%20Computing">Cloud Computing Documentation</a>
