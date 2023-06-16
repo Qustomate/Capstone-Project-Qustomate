@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         bottomNavView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
 
         openFragment(dashboardFragment)
+
     }
 
     private fun openFragment(fragment: Fragment) {

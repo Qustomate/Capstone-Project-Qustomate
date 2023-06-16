@@ -9,16 +9,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#152238"
-        android:padding="16dp">
+        android:padding="22dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Chat"
             android:textColor="#FFFFFF"
-            android:textSize="24sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
     </LinearLayout>
+
+    <!-- RecyclerView for Chat List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Type your message here" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send" />
 
 </LinearLayout>
